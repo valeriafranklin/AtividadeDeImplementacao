@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculadora Simples </title>
+</head>
+<body>
+    <script>
+        
+        function somar(num1, num2){
+            return Number(num1) + Number(num2)
+        }
+
+        function subtrair(num1, num2){
+            return Number(num1) - Number(num2)
+        }
+
+        do {
+            
+            var operacao = prompt(` 1 ..... Soma \n 2 ..... Subtração`)
+
+            var numero1 = prompt("Insira um primeiro número: ")
+            var numero2 = prompt("Insira um outro número: ")
+
+            if (operacao == 1) {
+                alert(somar(numero1,numero2))
+
+            }else if (operacao == 2){
+                alert(subtrair(numero1,numero2))
+
+        } while (confirm("Deseja realizar uma nova operação?") ? true : false);
+    </script>
+</body>
+</html>
