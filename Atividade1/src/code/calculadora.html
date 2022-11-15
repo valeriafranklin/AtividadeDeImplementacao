@@ -21,9 +21,13 @@
             return Number(num1) * Number(num2)
         }
 
+        function  dividir ( num1 ,  num2 ) {
+            return  Number ( num1 )  /  Number ( num2 )
+        }
+
         do {
             
-            var operacao = prompt(` 1 ..... Soma \n 2 ..... Subtração \n 3 ..... Multiplicação`)
+            var operacao = prompt(` 1 ..... Soma \n 2 ..... Subtração \n 3 ..... Multiplicação \n 4 ..... Divisão`)
 
             var numero1 = prompt("Insira um primeiro número: ")
             var numero2 = prompt("Insira um outro número: ")
@@ -36,6 +40,10 @@
 
             }else if (operacao == 3){
                 alert(multiplicar(numero1,numero2))
+                
+            }else  if  ( operação  ==  4 ) {
+                alerta ( dividir ( numero1 , numero2 ) )
+            }
 
         } while (confirm("Deseja realizar uma nova operação?") ? true : false);
     </script>
