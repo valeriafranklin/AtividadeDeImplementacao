@@ -14,9 +14,9 @@ Esta é uma calculadora básica com funções de soma, subtração, multiplicaç
  * Numero1: pede e guarda o primeiro número da operação.
  * Numero2: pede e guarda o segundo número da operação.
  * If: se a "operacao" tiver valor 1 ela retorna a soma do "numero1" e "numero2"
- * Else if: se a "operacao" tiver valor 2 ela retorna a subtração do "numero1" e "numero1"
- * Else if: se a "operacao" tiver valor 3 ela retorna a multiplicação do "numero1" e "numero1"
- * Else if: se a "operacao" tiver valor 4 ela retorna a divisão do "numero1" e "numero1"
+ * Else if: se a "operacao" tiver valor 2 ela retorna a subtração do "numero1" e "numero2"
+ * Else if: se a "operacao" tiver valor 3 ela retorna a multiplicação do "numero1" e "numero2"
+ * Else if: se a "operacao" tiver valor 4 ela retorna a divisão do "numero1" e "numero2"
 
 ### Do While:
 Função aberta durante toda a estrutura do código
